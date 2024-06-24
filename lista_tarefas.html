@@ -15,17 +15,7 @@
         <br>
         <label for="nova-tarefa">Nova Tarefa:</label><br>
         <input type="text" id="nova-tarefa" name="nova-tarefa">
-        <button onclick="adicionarTarefa()">Adicionar</button>
-
-        <script>
-        function adicionarTarefa() {
-            var novaTarefa = document.getElementById("nova-tarefa").value;
-            var lista = document.getElementById("lista-tarefas");
-            var novaLi = document.createElement("li");
-            novaLi.innerHTML = '<input type="checkbox"> ' + novaTarefa;
-            lista.appendChild(novaLi);
-        }
-    </script>
+        <button>Adicionar</button>
     </body>
 </html>
     
